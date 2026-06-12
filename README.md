@@ -1,158 +1,105 @@
-# [English](English.md) [中文](README.md)
-
-![icon_android](https://gitee.com/lyc486/yuedu/raw/master/icon_android.png)
-<a href="https://jb.gg/OpenSourceSupport" target="_blank">
-<img width="24" height="24" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*135yekd*_ga*OTY4Mjg4NDYzLjE2Mzk0NTE3MzQ.*_ga_9J976DJZ68*MTY2OTE2MzM5Ny4xMy4wLjE2NjkxNjMzOTcuNjAuMC4w&_ga=2.257292110.451256242.1669085120-968288463.1639451734" alt="idea"/>
-</a>
+# 好啊有
 
 <div align="center">
-<img width="125" height="125" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="legado"/>
-<br>
-阅读
-<br>
-<a href="https://loyc.xyz/c/legado.html" target="_blank">软件介绍页</a>
-<br>
-阅读继承自阅读Sigma，在其基础上新增更多实用和强大功能。
+  <img width="128" height="128" src="assets/icon.svg" alt="好啊有图标">
+  <br>
+  <strong>好啊有</strong>
+  <br>
+  基于 Legado / 阅读 Max 修改的个性化阅读应用
+  <br><br>
+  <a href="https://github.com/iLevody/haoayou/releases/tag/v5.20.365">下载最新版 APK</a>
 </div>
 
+## 最新版本
 
-## 版本说明
-- 本项目基于 [lyc版](https://gitee.com/lyc486/legado) 持续开发，在此基础上有更多实用和强大功能
-- **appLegacy版**：包名 `io.legado.app`，与原版相同，可覆盖更新
-- **appMax版**：包名 `io.legado.app.yuedu`，共存包名，不会覆盖原版
-- **appS版**：包名 `io.legado.app.yuedu.a`，另一个共存包名
+- 应用名称：好啊有
+- 当前版本：5.20.365
+- 包名：`io.legado.app.ilevody`
+- APK 文件：`haoa_you_5.20.365_signed_newkey.apk`
+- 发布地址：[好啊有 v5.20.365](https://github.com/iLevody/haoayou/releases/tag/v5.20.365)
 
-# 覆盖安装注意事项 [![](https://img.shields.io/badge/-覆盖安装注意事项-F5F5F5.svg)](#覆盖安装注意事项-)
+## 下载
 
-> ⚠️ **重要提醒**：安装Max版前一定要备份！
+[点击下载 APK](https://github.com/iLevody/haoayou/releases/download/v5.20.365/haoa_you_5.20.365_signed_newkey.apk)
 
-<details>
-<summary>从其他版本覆盖安装需要注意的事项</summary>
+## 应用说明
 
-**1. MD3版本书架分组兼容性问题**
+好啊有基于 Legado / 阅读 Max 修改，保留原有阅读能力，并进行了个性化调整。
 
-从MD3版本备份的书架分组在Max版本中无法正常显示。虽然在"分组管理"界面可以看到这些分组，但在其他界面无法显示。这是因为MD3版本自行修改了分组相关的备份数据格式，导致其他版本的阅读无法正常加载这些分组数据。
+本版本主要修改内容包括：
 
-**2. 跨很多的版本升级可能导致数据丢失**
+- 应用名称改为：好啊有
+- 包名改为：`io.legado.app.ilevody`
+- 版本号改为：5.20.365
+- 应用图标替换为自定义图标
+- 关于页面内容调整
+- 更新日志内容调整
+- APK 已重新签名并发布
 
-从lyc版本（包括Sigma和Plus版）直接安装最新的Max版可能会出现书架和其他数据全部丢失的情况。这是因为Max版最近更新幅度非常大，跨越了太多版本，数据格式可能存在兼容性问题。
+## 安装说明
 
-⚠️ 此时使用WebDAV恢复和本地恢复都无法正常工作！
+- 当前包名为：`io.legado.app.ilevody`
+- 不会覆盖原版 Legado / 阅读 / 阅读 Max
+- 安装前建议先备份书架、书源、阅读配置等重要数据
+- 后续升级同一包名时，必须使用同一个签名文件
 
-**解决方案**：
-- 将软件完全卸载后重新安装
-- 再进行数据恢复操作，此时即可正常恢复
+## 功能说明
 
-</details>
+好啊有保留 Legado / 阅读 Max 的主要阅读能力，包括：
 
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
+- 自定义书源
+- 书架管理
+- 搜索与发现
+- 本地 TXT / EPUB 阅读
+- 阅读界面自定义
+- 替换净化
+- 订阅内容
+- 多种翻页模式
+- WebDAV / 本地备份恢复
+- 主题与阅读配置管理
 
-[![](https://img.shields.io/badge/-Contents:-696969.svg)](#contents) [![](https://img.shields.io/badge/-Max特色-F5F5F5.svg)](#Max版特色功能-) [![](https://img.shields.io/badge/-Function-F5F5F5.svg)](#Function-主要功能-) [![](https://img.shields.io/badge/-Community-F5F5F5.svg)](#Community-交流社区-) [![](https://img.shields.io/badge/-API-F5F5F5.svg)](#API-) [![](https://img.shields.io/badge/-Other-F5F5F5.svg)](#Other-其他-) [![](https://img.shields.io/badge/-Grateful-F5F5F5.svg)](#Grateful-感谢-) [![](https://img.shields.io/badge/-Interface-F5F5F5.svg)](#Interface-界面-) [![](https://img.shields.io/badge/-覆盖安装注意事项-F5F5F5.svg)](#覆盖安装注意事项-)
+## 相关项目
 
-# Max版特色功能 [![](https://img.shields.io/badge/-Max特色-F5F5F5.svg)](#Max版特色功能-)
+- [gedoor/legado](https://github.com/gedoor/legado)
+- [Luoyacheng/legado](https://github.com/Luoyacheng/legado)
+- [开源阅读官网](https://gedoor.github.io/)
 
-阅读Max在继承原版所有功能的基础上，新增以下特色功能：
+## 致谢
 
-📖 **阅读体验增强** — 翻页速度自由调节 · 页眉页脚字体独立调节 · 波浪线/虚线下划线 <br>
-🔧 **调试与开发工具** — 集成调试工具台 · 代码编辑器增强 · TTS源调试 · 字典/字重调试界面 · 调试日志悬浮球 · 书源检测新界面 · 代码编辑切换规则 · 查询规则快速跳转 · 帮助文档全局搜索 · 书签搜索<br>
-📊 **数据与记录管理** — 阅读记录四种视图 · 热力图日历 · URL记录 · 完全备份支持 · 缓存管理界面增强 · 阅读记录搜索<br>
-🎨 **UI/UX优化** — HTML封面模板引擎 · 主题批量操作 · 帮助文档选择器 · 帮助文档全局搜索 · 发现页useWeb展示 · 主题置顶功能 · 备份文件验证 · 备份文件验证<br>
-🚀 **功能扩展增强** — @webjs规则类型 · 智能导入 · 自动更新 · JavaScript增强函数 · 向前向后预下载调节 · JS Packages使用指南
+本项目基于 Legado / 阅读 Max 修改。感谢原项目作者、维护者及相关开源依赖的贡献。
 
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
+### 原项目与维护者
 
-# Function-主要功能 [![](https://img.shields.io/badge/-Function-F5F5F5.svg)](#Function-主要功能-)
-[English](English.md)
+- gedoor
+- Luoyacheng
+- Horis
+- Xwite
+- GEd520
+- youfengknight
+- Legado / 阅读 / 阅读 Max 相关贡献者
 
-<details><summary>中文</summary>
-1.自定义书源，自己设置规则，抓取网页数据，规则简单易懂，软件内有规则说明。<br>
-2.列表书架，网格书架自由切换。<br>
-3.书源规则支持搜索及发现，所有找书看书功能全部自定义，找书更方便。<br>
-4.订阅内容,可以订阅想看的任何内容,看你想看<br>
-5.支持替换净化，去除广告替换内容很方便。<br>
-6.支持本地TXT、EPUB阅读，手动浏览，智能扫描。<br>
-7.支持高度自定义阅读界面，切换字体、颜色、背景、行距、段距、加粗、简繁转换等。<br>
-8.支持多种翻页模式，覆盖、仿真、滑动、滚动等。<br>
-9.缺失的功能全部加上<br>
-10.软件开源，持续优化，无广告。
-</details>
+### 开源依赖
 
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# Community-交流社区 [![](https://img.shields.io/badge/-Community-F5F5F5.svg)](#Community-交流社区-)
-
-
-#### Discord
-[![Discord](https://img.shields.io/discord/560731361414086666?color=%235865f2&label=Discord)](https://discord.gg/VtUfRyzRXn)
-
-#### Other
-https://www.yuque.com/legado/wiki/community
-
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# API [![](https://img.shields.io/badge/-API-F5F5F5.svg)](#API-)
-* 阅读3.0 提供了2种方式的API：`Web方式`和`Content Provider方式`。您可以在[这里](api.md)根据需要自行调用。 
-* 可通过url唤起阅读进行一键导入,url格式: legado://import/{path}?src={url}
-* path类型: bookSource,rssSource,replaceRule,textTocRule,httpTTS,theme,readConfig,dictRule,[addToBookshelf](/app/src/main/java/io/legado/app/ui/association/AddToBookshelfDialog.kt)
-* path类型解释: 书源,订阅源,替换规则,本地txt小说目录规则,在线朗读引擎,主题,阅读排版,添加到书架
-
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# Other-其他 [![](https://img.shields.io/badge/-Other-F5F5F5.svg)](#Other-其他-)
-##### 免责声明
-https://gedoor.github.io/Disclaimer
-
-##### 阅读3.0
-* [书源规则](https://mgz0227.github.io/The-tutorial-of-Legado/)
-* [更新日志](/app/src/main/assets/updateLog.md)
-* [帮助文档](/app/src/main/assets/web/help/md/appHelp.md)
-* [web端书架](https://github.com/gedoor/legado_web_bookshelf)
-* [web端源编辑](https://github.com/gedoor/legado_web_source_editor)
-
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# Grateful-感谢 [![](https://img.shields.io/badge/-Grateful-F5F5F5.svg)](#Grateful-感谢-)
-> * org.jsoup:jsoup
-> * cn.wanghaomiao:JsoupXpath
-> * com.jayway.jsonpath:json-path
-> * com.github.gedoor:rhino-android
-> * com.squareup.okhttp3:okhttp
-> * com.github.bumptech.glide:glide
-> * org.nanohttpd:nanohttpd
-> * org.nanohttpd:nanohttpd-websocket
-> * cn.bingoogolapple:bga-qrcode-zxing
-> * com.jaredrummler:colorpicker
-> * org.apache.commons:commons-text
-> * io.noties.markwon:core
-> * io.noties.markwon:image-glide
-> * com.hankcs:hanlp
-> * com.positiondev.epublib:epublib-core
-> * com.github.Moriafly:LyricViewX
-> * io.github.rosemoe:editor
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# Interface-界面 [![](https://img.shields.io/badge/-Interface-F5F5F5.svg)](#Interface-界面-)
-
-<figure class="third">
-    <img src="https://gitee.com/raw/master/static/1.png" width="270">
-    <img src="https://gitee.com/raw/master/static/2.png" width="270">
-    <img src="https://gitee.com/raw/master/static/3.png" width="270">
-    <img src="https://gitee.com/raw/master/static/4.png" width="270">
-</figure>
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
+- org.jsoup:jsoup
+- cn.wanghaomiao:JsoupXpath
+- com.jayway.jsonpath:json-path
+- com.github.gedoor:rhino-android
+- com.squareup.okhttp3:okhttp
+- com.github.bumptech.glide:glide
+- org.nanohttpd:nanohttpd
+- org.nanohttpd:nanohttpd-websocket
+- cn.bingoogolapple:bga-qrcode-zxing
+- com.jaredrummler:colorpicker
+- org.apache.commons:commons-text
+- io.noties.markwon:core
+- io.noties.markwon:image-glide
+- com.hankcs:hanlp
+- com.positiondev.epublib:epublib-core
+- com.github.Moriafly:LyricViewX
+- io.github.rosemoe:editor
+- AndroidX
+- Kotlin
+- Jetpack Compose
+- Material Components
+- OkHttp
+- Rhino
