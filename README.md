@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ic_launcher.png" width="120" alt="好啊有 Logo">
+  <img src="./assets/ic_launcher.png" width="120" alt="download.png">
 </p>
 
 <h1 align="center">好啊有</h1>
