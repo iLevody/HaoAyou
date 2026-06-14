@@ -24,6 +24,22 @@
 
 ---
 
+## 应用样图
+
+<p align="center">
+  <img src="./assets/screenshots/Screenshot_20260614_143319.jpg" width="180" alt="书架">
+  <img src="./assets/screenshots/Screenshot_20260614_143323.jpg" width="180" alt="主题">
+  <img src="./assets/screenshots/Screenshot_20260614_143347.jpg" width="180" alt="阅读页">
+  <img src="./assets/screenshots/Screenshot_20260614_143336.jpg" width="180" alt="管理页">
+  <img src="./assets/screenshots/Screenshot_20260614_143327.jpg" width="180" alt="搜索页">
+</p>
+
+<p align="center">
+  <sub>书架 · 主题 · 阅读 · 管理 · 搜索</sub>
+</p>
+
+---
+
 ## 当前版本
 
 - 应用名称：好啊有
