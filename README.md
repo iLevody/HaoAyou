@@ -103,7 +103,7 @@ https://github.com/iLevody
 
 请前往 Release 页面下载最新 APK：
 
-https://github.com/iLevody/haoayou/releases/latest
+https://github.com/iLevody/HaoAyou/releases/latest
 
 ---
 
