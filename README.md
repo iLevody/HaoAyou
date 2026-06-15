@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/iLevody/haoayou/releases/latest">下载最新版</a>
+  <a href="https://github.com/iLevody/HaoAyou/releases/latest">下载最新版</a>
   ·
   <a href="https://github.com/iLevody">GitHub 主页</a>
 </p>
